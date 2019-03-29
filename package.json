@@ -1,6 +1,6 @@
 {
   "name": "storybook4-state",
-  "version": "1.5.2",
+  "version": "1.5.3",
   "description": "Manage component state in storybook stories. Fork for storybook v4",
   "main": "dist/index.js",
   "typings": "index.d.ts",
