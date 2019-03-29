@@ -85,7 +85,7 @@ export function register() {
 
     addons.addPanel('dump247/state/panel', {
       title: 'State',
-      render: ({active}) => <StatePanel channel={channel} api={api} active={active}/>,
+      render: ({active, key}) => <StatePanel channel={channel} api={api} active={active} key={key} />,
     });
   });
 }
